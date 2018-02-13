@@ -1,0 +1,29 @@
+﻿p{
+    background-color: blue;   /* ways colors can be listed: english, Hexadecimal, rgba(), hsla() */
+    color:white;
+}
+
+.superhero {
+    font-family: Calibri; 
+}
+
+#page-title {
+    color: var(--primary-color); /*// We'll get to what this is shortly*/ 
+    font-family: Aharoni;
+    font-size: 2rem;
+}
+
+section h1 {
+    background-color: red;
+}
+
+:root {  /*// Notice we declare this with the same key, value pair.*/
+    --primary-color: red;
+    --secondary-color: blue;
+    --tertiary-color: yellow;
+}
+
+h1 { /*// Declare variables the same way you would other values.*/
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
